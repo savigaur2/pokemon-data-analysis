@@ -10,4 +10,5 @@ def home():
     Main.Write_to_HTML("p",str_predictions)
     return render_template('index.html')
 
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
