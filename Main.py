@@ -78,7 +78,7 @@ def Function():
 def Predictio_toString():
     str_return = "["
     row_count = 0
-    gen = Function();
+    gen = Function()
     for i in gen:
         if row_count == 21:
             str_return = str_return + '\n'
