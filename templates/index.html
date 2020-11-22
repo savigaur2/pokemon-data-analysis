@@ -6,14 +6,20 @@
     <link rel="stylesheet" media="screen" href = "{{ url_for('static', filename='css/bootstrap.min.css') }}">
 </head>
 <body>
+    <div class="jumbotron">
+        <h1 class="display-4">Pokemon Data Aanaysis</h1>
+        <p class="lead">Answering the Question: "Do later generations produce stringer Pokemon"</p>
+        <hr class="my-4">
+        <ul>Method of Anaysis:
+            <li>Predict the generation of the Pokemon based on keyfeatures</li>
+            <li>Utilizes the RandonForestRegresion model</li>
+        </ul>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
     <h1>
         Pokemon Data Aanaysis
     </h1>
-    <h2>Answering the Question: "Do later generations produce stringer Pokemon"</h2>
-    <ul>Method of Anaysis:
-        <li>Predict the generation of the Pokemon based on keyfeatures</li>
-        <li>Utilizes the RandonForestRegresion model</li>
-    </ul>
+    <h2></h2>
     <ul>Steps Taken:
         <li>Read data using pandas</li>
         <li>Filter data by removing null values</li>
