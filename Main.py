@@ -27,7 +27,7 @@ def Function():
     filtered_pokemon_data = filtered_pokemon_data.sort_values('total_points', ascending = False)
     print('Data sucessfully sorted based on total_points')
 
-    # Define out target(y) and our features
+    # Define out target(y) and our features(x)
     y = filtered_pokemon_data.generation
     X = filtered_pokemon_data[features]
 
